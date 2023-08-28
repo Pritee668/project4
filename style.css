@@ -1,0 +1,18 @@
+li{
+   padding: 30px;
+   margin-top: 20px;
+}
+*{
+    box-sizing:border-box;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 12px;
+    
+}
