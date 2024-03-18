@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 300px;
+    width: 800px;
+    border: 2px solid red;
+    background-color: darkmagenta;
+    margin-left: 250px;
+  }
+  input{
+    font-size: 30px;
+  }
+  h1{
+    text-align: center;
+    margin-top: 40px;
+    color: crimson;
+    font-size: 40px;
+  }
+  .input-div{
+    margin-top: 90px;
+  }
+  @media (max-width:1200px){
+    h1{
+      text-align: left;
+      margin-top: 20px;
+      font-size: 25px;
+      margin-left: 10px;
+    }
+    #container{
+      height: 200px;
+      width: 300px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    input{
+      font-size: 20px;
+    }
+    .inp{
+      width: 100px;
+    }
+    .input-div>label{
+      font-size: 20px;
+    }
+  }
